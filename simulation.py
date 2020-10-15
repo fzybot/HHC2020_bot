@@ -2,7 +2,7 @@
 """
 Created on 10/12/2020 12:27 PM
 
-@author: Ruslan V. Akhpashev
+@author: R. V. A.
 """
 #TODO the documentation should be added
 #TODO the code should be optimized
