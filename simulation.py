@@ -4,8 +4,11 @@ Created on 10/12/2020 12:27 PM
 
 @author: R. V. A.
 """
-#TODO the documentation should be added
-#TODO the code should be optimized
+#TODO: the documentation should be added
+#TODO: the code should be optimized
+#TODO: avoid a lot of 'if else' 
+#TODO: avoid a lot of 'inserted loops'
+#TODO: rewrite the code from 'time.sleep()' to 'requests'.
 
 
 
@@ -26,6 +29,7 @@ import pickle
 
 mode = 0 # play 5G
 category = 0 # play first category
+#do not forget to create a directories with 'questions.json' file in it
 sub_path_5G =['5G\IRF\\', '5G\RTT\\', '5G\RRM\\']
 play_button_path = ['/html/body/app/div[1]/nomination/div/div/div[2]/div[3]/div[1]/div/div/div[2]/div',
                     '/html/body/app/div[1]/nomination/div/div/div[2]/div[3]/div[2]/div/div/div[2]/div',
@@ -87,8 +91,6 @@ def rounds():
         round_question = browser.find_element_by_class_name('game__question-text')
         print("current question is: ",round_question.text)
         round_answers = browser.find_elements_by_class_name('game__answer')
-        # if browser.find_element_by_class_name('game__question-image'):
-        #     round_url = browser.find_element_by_class_name('game__question-image').text
 
         question_flag = False
         question_index = 0
@@ -114,8 +116,8 @@ def rounds():
                 #time.sleep(4)
                 curr_score = score()
                 if game_score == curr_score:
+					#TODO: fix the problem when the right answer is clicked and still wrong
                     print("ALARM!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-                    #questions[question_index]["answers"]["right"] = ""
                 else:
                     print("Uraaaaaaaaaaaaaaaaaa")
             else:
@@ -186,8 +188,6 @@ def rounds():
             time.sleep(40)
         with open(sub_path_5G[category] + 'questions.json', 'w') as write_file:
             json.dump(questions, write_file, indent=2)
-    # with open(sub_path_5G[category] + 'questions.txt', 'r') as write_file:
-    #     json.dump(questions, write_file, indent=2)
     time.sleep(5)
 
 
@@ -198,6 +198,9 @@ def rounds():
 
 
 if __name__ == '__main__':
+	
+	
+	#this is aimed to 5G
     while True:
         try:
             category = np.random.randint(0, 3)
