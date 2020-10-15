@@ -39,6 +39,7 @@ browser = webdriver.Firefox(executable_path='geckodriver.exe')
 questions = []
 
 
+#TODO: check this function, sometimes it returns '40\n + 20'
 def score():
     return browser.find_element_by_class_name('game__user-value').text
 
