@@ -4,6 +4,10 @@ Created on 10/12/2020 12:27 PM
 
 @author: Ruslan V. Akhpashev
 """
+#TODO the documentation should be added
+#TODO the code should be optimized
+
+
 
 TOKEN = 'find your token in source code, try to find by "sign" phrase'
 
