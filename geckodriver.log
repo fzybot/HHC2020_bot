@@ -1,0 +1,59 @@
+geckodriver.exe: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver.exe --port <PORT>
+
+For more information try --help
+
+geckodriver.exe: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver.exe --port <PORT>
+
+For more information try --help
+
+1680577323346	geckodriver	INFO	Listening on 127.0.0.1:51755
+1680577363103	geckodriver	INFO	Listening on 127.0.0.1:51795
+1680577989230	geckodriver	INFO	Listening on 127.0.0.1:63903
+1680578076805	geckodriver	INFO	Listening on 127.0.0.1:64198
+1680578079841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\fzybo\\AppData\\Local\\Temp\\rust_mozprofilexXYIAp"
+1680578151875	geckodriver	INFO	Listening on 127.0.0.1:64298
+1680578154900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\fzybo\\AppData\\Local\\Temp\\rust_mozprofileD7Uts4"
+1680578155457	Marionette	INFO	Marionette enabled
+1680578155464	Marionette	INFO	Listening on port 64314
+WebDriver BiDi listening on ws://127.0.0.1:64299
+Read port: 64314
+1680578155785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fzybo\\AppData\\Local\\Temp\\rust_mozprofileD7Uts4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64299/devtools/browser/e58890ab-cf41-4c9f-b41a-bbef8c0d7d6d
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1680578679584	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+onette" "--remote-debugging-port" "64472" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\fzybo\\AppData\\Local\\Temp\\rust_mozprofile6LF9q2"
+1680578272638	Marionette	INFO	Marionette enabled
+1680578272646	Marionette	INFO	Listening on port 64482
+Read port: 64482
+WebDriver BiDi listening on ws://127.0.0.1:64472
+1680578272808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fzybo\\AppData\\Local\\Temp\\rust_mozprofile6LF9q2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64472/devtools/browser/d45b47da-a8b9-42d5-961c-fd0dcb8cd5ed
+JavaScript warning: https://yastatic.net/s3/front-maps-static/maps-front-maps/build/client/map-widget/chunks/map-widget-app/ada6905786a51e737a3d.yandex.ru.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1680578286144	Marionette	INFO	Stopped listening on port 64482
